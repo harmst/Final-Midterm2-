@@ -181,7 +181,7 @@ p2 = [];
 
 for n = 1:10
     for j = 1:784
-        norm1 = norm(a3(n,j),1);   
+        norm1 = norm(a3(n,j),2);   
         norm2(n,j) = norm1;
     end
     
